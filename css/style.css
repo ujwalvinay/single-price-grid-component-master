@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Karla', sans-serif;
+}
+body
+{
+    background: hsl(204, 43%, 93%);
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 40%;
+    border-radius: 15px;
+    
+}
+.white-div
+{
+    background: white;
+    padding: 2rem 0;  
+    height: 40%;
+    border-radius: 10px 10px 0 0;
+}
+.white-div > *
+{
+    margin-left: 2rem;
+}
+.coloured-div
+{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+.sub-div
+{
+    
+    background-color: hsl(179, 71%, 34%);
+    width: 50%;
+    border-radius: 0 0 0 10px;
+}
+.why-div
+{
+    background: hsl(179, 62%, 43%);
+    width: 50%;
+    text-align: left;
+    border-radius: 0 0 10px 0;
+}
+.why-div , .sub-div
+{
+    padding: 2rem 0;
+    padding-bottom: 0;
+    color: white;
+}
+.why-div > * , .sub-div > *
+{
+    margin-left: 2rem;
+}
+.price
+{
+    display: flex;
+    padding: 1rem 0;
+}
+
+
+/*-------------Font decoration---------------*/
+p
+{
+    opacity: 0.7;
+    Font-size: 16px;
+}
+h2
+{
+    padding-right: 1rem;
+}
+h3
+{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+#guarantee
+{
+    color: hsl(71, 86%, 49%);
+    padding-bottom: 1rem;
+}
+#why
+{
+    color: white;
+}
+button
+{
+    margin: 2rem 0;
+    width: 15rem;
+    padding: .7rem 0;
+    background: hsl(71, 86%, 49%) ;
+    border-radius: 10px;
+    
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
